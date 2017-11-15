@@ -1,6 +1,9 @@
 #!/bin/bash
-if [ 5 -gt 6 ]
+
+if [ $1 > 10 ]
 then 
-	echo "The statement is false."
+	echo "you entered $1"
+else
+	echo "you entered $1 which is greater than 10"
 fi
 
